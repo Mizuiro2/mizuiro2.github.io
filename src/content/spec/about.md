@@ -1,7 +1,7 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+This is the github site for [me](https://github.com/Mizuiro2).
 
-::github{repo="saicaca/fuwari"}
+::github{repo="Mizuiro2/mizuiro2.github.io"}
 
 > ### Sources of images used in this site
 > - [Unsplash](https://unsplash.com/)

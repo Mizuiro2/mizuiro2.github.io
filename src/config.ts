@@ -16,12 +16,12 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'assets/images/ryogishiki.png',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'assets/images/akataba.png',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: true,         // Display the credit text of the banner image
-      text: 'nakiri~',              // Credit text to be displayed
-      url: ''                // (Optional) URL link to the original artwork or artist's page
+      text: 'akataba',              // Credit text to be displayed
+      url: 'https://www.pixiv.net/artworks/125063120'                // (Optional) URL link to the original artwork or artist's page
     }
   },
   toc: {
@@ -52,8 +52,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/nakiri.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  name: 'Mizuiro',
+  bio: 'A student forever',
   links: [
     {
       name: 'Twitter',
