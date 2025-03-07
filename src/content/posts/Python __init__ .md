@@ -1,5 +1,5 @@
 ---
-title: Python __init__
+title: Python __init__.py
 published: 2025-03-07
 tags: [Python]
 category: Python
@@ -15,4 +15,8 @@ When we import a module in main.py, they are under the same directory. The impor
 - the initialization of the package : the environment variable, the logging, etc...
 - the public interface to manage packages
 - the package information
+
+## Bilibili
+
+<iframe width="100%" height="468" src="https://www.bilibili.com/video/BV1QA94YPEMK/?spm_id_from=333.1007.tianma.3-2-6.click&vd_source=2306f3dedbe69ca9291db21c77932552" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
