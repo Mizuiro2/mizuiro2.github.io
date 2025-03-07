@@ -18,5 +18,5 @@ When we import a module in main.py, they are under the same directory. The impor
 
 ## Bilibili
 
-<iframe width="100%" height="468" src="https://www.bilibili.com/video/BV1QA94YPEMK?t=1.2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1QA94YPEMK" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
