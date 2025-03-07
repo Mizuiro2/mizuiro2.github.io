@@ -1,5 +1,5 @@
 ---
-title: Python __inin__
+title: Python __init__
 published: 2025-3-7
 tags: [Python]
 category: Python
