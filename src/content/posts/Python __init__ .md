@@ -1,6 +1,6 @@
 ---
 title: Python __init__
-published: 2025-3-7
+published: 2025-03-07
 tags: [Python]
 category: Python
 draft: false
