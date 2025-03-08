@@ -4,6 +4,8 @@ published: 2025-03-07
 tags: [Python]
 category: Python
 draft: false
+description: This post demonstrates some tips about python's __init__.py
+image: https://pbs.twimg.com/media/GlbN8kcbwAM57tT?format=jpg&name=large
 ---
 
 ## Why we need to write __init__.py ?
