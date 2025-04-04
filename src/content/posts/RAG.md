@@ -5,7 +5,7 @@ tags: [RAG, LLM]
 category: LLM
 draft: false
 description: Fudamental knowledge about RAG
-image: https://i.pximg.net/img-original/img/2022/09/04/18/40/36/100994095_p0.png
+image: https://x.com/sgmt_proxy/status/1907557387990663383/photo/1
 ---
 
 ## What is and Role ?
