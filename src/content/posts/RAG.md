@@ -12,13 +12,13 @@ image: https://pbs.twimg.com/media/GnkBGRHbwAAAgVY?format=jpg&name=medium
 A technology that use external knowledge repository to reduce hallucination of LLM.
 
 ## How does it works ?
-1. Split the **Knowledge Base**(PDF、Word,Wiki,video,audio,PDF,etc... generally, un-structured data) into **Text Chunk** 
-2. **Text Chunk** will be converted into **vector** (High dimension to Low dimension, capture the semantic relation) by **Embedding Model** (eg. OpenAI: text-embedding-3-large etc..) Note: different Embeddig Model will create differnt vector values. 
-3. **Vector Base** is formed by these vector embeddings. It can be used as a Long-term Memory for AI.
-4. Combine the **User Query**(will be converted into vector by embedding model too) and the **Vector Base**, doing the similarity search. (Retrieve part)
-5. Select **top-k chunks**.
-6. **Top-k chunks** will be sent into **Reranking model** to select **top-n chunks** among them. (improve search relevance)
-7. **Top-n chunks** will be sent to LLM as context(combined with user query)
+1. Split the `Knowledge Base`(PDF、Word,Wiki,video,audio,PDF,etc... generally, un-structured data) into `Text Chunk` 
+2. `Text Chunk` will be converted into `vector` (High dimension to Low dimension, capture the semantic relation) by `Embedding Model` (eg. OpenAI: text-embedding-3-large etc..) Note: different Embeddig Model will create differnt vector values. 
+3. `Vector Base` is formed by these vector embeddings. It can be used as a Long-term Memory for AI.
+4. Combine the `User Query`(will be converted into vector by embedding model too) and the `Vector Base`, doing the similarity search. (Retrieve part)
+5. Select `top-k chunks`.
+6. `Top-k chunks` will be sent into `Reranking model` to select `top-n chunks` among them. (improve search relevance)
+7. `Top-n chunks` will be sent to LLM as context(combined with user query)
 
 ## How to measure if the vector embeddings are similar ?
 - Euclidean Distance
