@@ -12,8 +12,8 @@ image: https://pbs.twimg.com/media/GnkBGRHbwAAAgVY?format=jpg&name=medium
 A technology that use external knowledge repository to reduce hallucination of LLM.
 
 ## How does it works ?
-1. Split the `Knowledge Base`(PDF、Word,Wiki,video,audio,PDF,etc... generally, un-structured data) into `Text Chunk` 
-2. `Text Chunk` will be converted into `vector` (High dimension to Low dimension, capture the semantic relation) by `Embedding Model` (eg. OpenAI: text-embedding-3-large etc..) Note: different Embeddig Model will create differnt vector values. 
+1. Split the `Knowledge Base`(PDF, Word, Wiki, video, audio, PDF, etc... generally, un-structured data) into `Text Chunk` 
+2. `Text Chunk` will be converted into `vector` (High dimension to Low dimension, capture the semantic relation) by `Embedding Model` (eg. OpenAI:  text-embedding-3-large etc..) Note: different Embeddig Model will create differnt vector values. 
 3. `Vector Base` is formed by these vector embeddings. It can be used as a Long-term Memory for AI.
 4. Combine the `User Query`(will be converted into vector by embedding model too) and the `Vector Base`, doing the similarity search. (Retrieve part)
 5. Select `top-k chunks`.
@@ -24,6 +24,16 @@ A technology that use external knowledge repository to reduce hallucination of L
 - Euclidean Distance
 - Cosine Similarity(usually used in text-based data,NLP. Because: Even if two document are stronly different in length,which will lead to long euclidean distance, they still have the possibility to have high cosine similarity)
 - Dot Product Similarity
+ 
+### ANN（Approximate Nearest Neighbor search） 
+Introduce vector `Index`
+- Hash-based : LSH
+- Tree-based index : ANNOY
+- Cluster-based index : IVF
+- Graph-based index: HNSW
+- Compression-Vector Quantization : SQ(scalar quantization) PQ(Produt Quantization)
+
+The most famous one is HNSW(hierarchical navigable small world)
 
 
 
